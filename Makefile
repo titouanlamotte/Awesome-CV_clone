@@ -1,6 +1,1 @@
-.PHONY: examples
-
-examples: $(foreach x,coverletter cv resume,examples/$x.pdf)
-
-%.pdf: %.tex
-	xelatex -output-directory=$(dir $@) $<
+cd data; rm *.log; for x in *.tex; do xelatex $x;done; mv *.pdf ../
