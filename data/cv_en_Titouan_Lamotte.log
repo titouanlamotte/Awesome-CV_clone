@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.10.15)  12 JAN 2017 21:42
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.10.15)  13 JAN 2017 12:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -823,34 +823,79 @@ Overfull \hbox (2.92001pt too wide) in paragraph at lines 67--91
    [] 
  []
 
-) (./cv/languages_en.tex) [1
+) (./cv/education_en.tex) (./cv/languages_en.tex) [1
 
-] (./cv/education_en.tex) (./cv/skills_en.tex
-Overfull \hbox (62.33974pt too wide) in alignment at lines 10--31
-[] [] 
+] (./cv/skills_en.tex
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 21--48
+   [] 
+ []
+
+
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 21--48
+   [] 
+ []
+
+
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 21--48
+   [] 
  []
 
 ) (./cv/IT_en.tex
-Overfull \hbox (70.60974pt too wide) in alignment at lines 10--44
-[] [] 
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 19--61
+   [] 
  []
 
-) (./cv/certifications_en.tex) (./cv/extracurricular_en.tex)
-(./cv/hobbies_en.tex)
+
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 19--61
+   [] 
+ []
+
+
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 19--61
+   [] 
+ []
+
+
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 19--61
+   [] 
+ []
+
+
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 19--61
+   [] 
+ []
+
+) (./cv/certifications_en.tex
+Overfull \hbox (486.54231pt too wide) in paragraph at lines 17--18
+ [] 
+ []
+
+
+Overfull \hbox (486.54231pt too wide) in paragraph at lines 24--25
+ [][] 
+ []
+
+
+Overfull \hbox (486.54231pt too wide) in paragraph at lines 31--32
+ [][] 
+ []
+
+) (./cv/extracurricular_en.tex) (./cv/hobbies_en.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 104.
  [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 104.
- (./cv_en_Titouan_Lamotte.aux)
+
+(./cv_en_Titouan_Lamotte.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 104.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 104.
  ) 
 Here is how much of TeX's memory you used:
- 27878 strings out of 493638
- 482567 string characters out of 6146795
- 603018 words of memory out of 5000000
- 31006 multiletter control sequences out of 15000+600000
- 6512 words of font info for 76 fonts, out of 8000000 for 9000
+ 27873 strings out of 493638
+ 482275 string characters out of 6146795
+ 604131 words of memory out of 5000000
+ 31004 multiletter control sequences out of 15000+600000
+ 6488 words of font info for 73 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,11n,68p,10397b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,19n,68p,10397b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cv_en_Titouan_Lamotte.pdf (2 pages).

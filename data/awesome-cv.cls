@@ -546,6 +546,18 @@
   \end{tabular*}%
 }
 
+% Usage: \zcventry{<title>}{<description>}
+% For Skills !
+\newcommand*{\zcventry}[2]{%
+	\vspace{-2.0mm}
+	\setlength\tabcolsep{0pt}
+	\setlength{\extrarowheight}{0pt}
+	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+		\skilltypestyle{#1}\\
+		\multicolumn{2}{L{\textwidth}}{\skillsetstyle{#2}}
+	\end{tabular*}%
+}
+
 % Define an environment for cvsubentry
 \newenvironment{cvsubentries}{%
   \begin{center}
@@ -585,8 +597,17 @@
 % Define a line of cv information(honor, award or something else)
 % Usage: \cvhonor{<position>}{<title>}{<location>}{<date>}
 \newcommand*{\cvhonor}[4]{%
-  \honordatestyle{#4} & \honorpositionstyle{#1} \honortitlestyle{#2} & \honorlocationstyle{#3} \\
+  %\honordatestyle{#4} & \honorpositionstyle{#1} \honortitlestyle{#2} & \honorlocationstyle{#3} \\
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 4.5cm} R{4.5cm}}
+    	\ifempty{#2#3}
+    	{\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+    	{\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
+    		\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+    \end{tabular*}%
 }
+
+
+
 
 % Define an environment for cvskill
 \newenvironment{cvskills}{%
@@ -605,6 +626,7 @@
 \newcommand*{\cvskill}[2]{%
 	\skilltypestyle{#1} & \skillsetstyle{#2} \\
 }
+
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
