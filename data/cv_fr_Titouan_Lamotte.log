@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.10.15)  13 JAN 2017 12:50
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2016.10.15)  13 JAN 2017 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -823,7 +823,12 @@ Overfull \hbox (2.92001pt too wide) in paragraph at lines 66--89
    [] 
  []
 
-) (./cv/education_fr.tex) (./cv/languages_fr.tex
+) (./cv/education_fr.tex
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 23--35
+   [] 
+ []
+
+) (./cv/languages_fr.tex
 Overfull \hbox (4.95973pt too wide) in alignment at lines 10--25
 [] [] 
  []
@@ -831,13 +836,43 @@ Overfull \hbox (4.95973pt too wide) in alignment at lines 10--25
 ) [1
 
 ] (./cv/skills_fr.tex
-Overfull \hbox (66.64975pt too wide) in alignment at lines 10--32
-[] [] 
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 20--47
+   [] 
+ []
+
+
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 20--47
+   [] 
+ []
+
+
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 20--47
+   [] 
  []
 
 ) (./cv/IT_fr.tex
-Overfull \hbox (88.86974pt too wide) in alignment at lines 10--45
-[] [] 
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 20--62
+   [] 
+ []
+
+
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 20--62
+   [] 
+ []
+
+
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 20--62
+   [] 
+ []
+
+
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 20--62
+   [] 
+ []
+
+
+Overfull \hbox (2.92001pt too wide) in paragraph at lines 20--62
+   [] 
  []
 
 ) (./cv/certifications_fr.tex
@@ -867,10 +902,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 104.
 Here is how much of TeX's memory you used:
  27873 strings out of 493638
  482275 string characters out of 6146795
- 604119 words of memory out of 5000000
+ 604140 words of memory out of 5000000
  31004 multiletter control sequences out of 15000+600000
  6488 words of font info for 73 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,19n,68p,10397b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,19n,68p,10397b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on cv_fr_Titouan_Lamotte.pdf (2 pages).
