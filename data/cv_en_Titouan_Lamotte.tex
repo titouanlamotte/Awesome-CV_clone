@@ -19,7 +19,6 @@
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
-% A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
 
 % Configure page margins with geometry
@@ -32,72 +31,42 @@
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
 \colorlet{awesome}{awesome-red}
-% Uncomment if you would like to specify your own color
-% \definecolor{awesome}{HTML}{CA63A8}
-
-% Colors for text
-% Uncomment if you would like to specify your own color
-% \definecolor{darktext}{HTML}{414141}
-% \definecolor{text}{HTML}{333333}
-% \definecolor{graytext}{HTML}{5D5D5D}
-% \definecolor{lighttext}{HTML}{999999}
 
 % Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
-
-% If you would like to change the social information separator from a pipe (|) to something else
-\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\input{cv/layout_overrides.tex}
 
 \usepackage{ragged2e}
+
 %-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
+% PERSONAL INFORMATION
 %-------------------------------------------------------------------------------
 \name{Titouan}{Lamotte}
-\position{Functional Analyst{\enskip\cdotp\enskip}SAP/ERP \& Data Integration consultant}
+\position{Data Integration Team Lead}
+\address{Based in Frankfurt am Main, Germany}
 
-%\quote{Passionate about business and Information Technology, I am a french business engineer highly motivated with more than 3 years of experience between IT , E-commerce and Online Marketing. I recently graduated from UTBM \& ESTA with a dual master of sciences in technology management and a diploma in business engineering management. During 2015 and 2016, I worked for a fast-growing startup in Hamburg where I wrote my master-thesis about the way online-tracking and uplift modelling can help to generate ROI. I helped almost every department of the company while working on my own IT projects as business analyst.  My method is simple: positive attitude and hard work considering analytical thinking and pragmatic solutions first. After that I participated to the startup bus Europe and started my freelancer activity, which is my current occupation. I'm currently looking for international opportunities in the area of Information Technology where my skills can be useful. With two years of experience in an international environment I have a good understanding of the French and German businesses.}
-
-% \phone{} 
-\email{hello[at]titouanlamotte.fr}
-\homepage{www.titouanlamotte.fr}
-\github{titouanlamotte}
-\linkedin{titouanlamotte}
-% \stackoverflow{SO-id}{SO-name}
-% \twitter{@TitouanLamotte}
-\xing{Titouan\_LAMOTTE}
-% \skype{skype-id}
-% \reddit{reddit-id}
-\extrainfo{Frankfurt am Main, Germany}
-
-% \quote{``Must be the change that you want to see in the world."}
+\quote{Passionate about technology, business processes, and international collaboration, I have built extensive experience in SAP and data integration environments across Germany, Austria, Switzerland, and CEE. Based in Frankfurt am Main, I lead teams and integration initiatives that connect business processes, applications, and data across international organizations.}
 
 
 %-------------------------------------------------------------------------------
 \begin{document}
-% Print the header with above personal informations
 \makecvheader
 
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
 \makecvfooter
-  {\today}
-  {Titouan Lamotte~~~·~~~Curriculum Vitae}
-  {\thepage}
+  {}
+  {\cvfootercontacts}
+  {\thepage/\pageref{LastPage}}
 
 
 %-------------------------------------------------------------------------------
-%	CV/RESUME CONTENT
-%	Each section is imported separately, open each file in turn to modify content
+% CV/RESUME CONTENT
 %-------------------------------------------------------------------------------
 \input{cv/experience_en.tex}
 \input{cv/education_en.tex}
+\newpage % Force the remaining sections onto page 2.
 \input{cv/languages_en.tex}
-\newpage
 \input{cv/skills_en.tex}
-\input{cv/IT_en.tex}
-\input{cv/certifications_en.tex}
-\input{cv/extracurricular_en.tex}
+\input{cv/core_competencies_en.tex}
 \input{cv/hobbies_en.tex}
 
 %-------------------------------------------------------------------------------

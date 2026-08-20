@@ -19,7 +19,6 @@
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
-% A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
 
 % Configure page margins with geometry
@@ -32,71 +31,42 @@
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
 \colorlet{awesome}{awesome-red}
-% Uncomment if you would like to specify your own color
-% \definecolor{awesome}{HTML}{CA63A8}
-
-% Colors for text
-% Uncomment if you would like to specify your own color
-% \definecolor{darktext}{HTML}{414141}
-% \definecolor{text}{HTML}{333333}
-% \definecolor{graytext}{HTML}{5D5D5D}
-% \definecolor{lighttext}{HTML}{999999}
 
 % Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
-
-% If you would like to change the social information separator from a pipe (|) to something else
-\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\input{cv/layout_overrides.tex}
 
 \usepackage{ragged2e}
+
 %-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
+% PERSONAL INFORMATION
 %-------------------------------------------------------------------------------
 \name{Titouan}{Lamotte}
-\position{Analyste fonctionnel{\enskip\cdotp\enskip}Consultant SAP/ERP \& Data Integration}
+\position{Responsable d'équipe Data Integration}
+\address{Bas\'e \`a Francfort-sur-le-Main, Allemagne}
 
-%\quote{Passioné tant par les technologies de l'information que par le commerce, je suis un ingénieur d'affaires fort de trois années d'expérience dans les domaines du E-commerce et du Online-Marketing. Ma méthode est simple, une attitude positive et un travail sérieux tout en gardant un espirt d'analyse et en considerant des solutions pragmatiques en premier lieu. J'ai écrit ma thèse de master sur la façon dont le online-tracking et des modèles de données peuvent générer un retour sur investissement suite à une campagne télévisuelle.  Récemment diplomé d'un master en management de la technologie et d'un double-diplôme de manager en ingénierie d'affaires industrielles, je suis à la recherche d'opportunités à l'international dans les domaines du E-commerce et de la sécurité des systèmes d'information. Avec deux années d'expérience dans un environnement international, j'ai une bonne connaissance des marchés français et allemands.}
-
-% \phone{}
-\email{hello[at]titouanlamotte.fr}
-\homepage{www.titouanlamotte.fr}
-\github{titouanlamotte}
-\linkedin{titouanlamotte}
-% \twitter{@TitouanLamotte}
-\xing{Titouan\_LAMOTTE}
-% \skype{skype-id}
-% \reddit{reddit-id}
-\extrainfo{Francfort-sur-le-Main, Allemagne}
-
-% \quote{``Must be the change that you want to see in the world."}
+\quote{Passionné par la technologie, les processus métier et la collaboration internationale, j'ai développé une solide expérience dans des environnements SAP et de data integration en Allemagne, en Autriche, en Suisse et en CEE. Basé à Francfort-sur-le-Main, je pilote des équipes et des initiatives d'intégration qui relient processus métier, applications et données au sein d'organisations internationales.}
 
 
 %-------------------------------------------------------------------------------
 \begin{document}
-% Print the header with above personal informations
 \makecvheader
 
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
 \makecvfooter
-  {\today}
-  {Titouan Lamotte~~~·~~~Curriculum Vitae}
-  {\thepage}
+  {}
+  {\cvfootercontacts}
+  {\thepage/\pageref{LastPage}}
 
 
 %-------------------------------------------------------------------------------
-%	CV/RESUME CONTENT
-%	Each section is imported separately, open each file in turn to modify content
+% CV/RESUME CONTENT
 %-------------------------------------------------------------------------------
 \input{cv/experience_fr.tex}
 \input{cv/education_fr.tex}
+\newpage % Force the remaining sections onto page 2.
 \input{cv/languages_fr.tex}
-\newpage
 \input{cv/skills_fr.tex}
-\input{cv/IT_fr.tex}
-\input{cv/certifications_fr.tex}
-\input{cv/extracurricular_fr.tex}
+\input{cv/core_competencies_fr.tex}
 \input{cv/hobbies_fr.tex}
 
 %-------------------------------------------------------------------------------
